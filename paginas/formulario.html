@@ -8,17 +8,57 @@
 </head>
 <body>
 
-    <h1>Formulário</h1>
+    <font color="#B8B1EB"><h1>FORMULÁRIO</h1></font>
+
+<body>
 
      <form action=" "method=" ">
+        <div>
         <label for="nome_usuario">Nome:</label><!--label insere um rotulo -->
         <!--input text e um campo de entrada de texto -->
-        <input type="text" name="nome_usuario" id="nome_usuario " size="50" 
-    maxlenght="10"    minlenght="3" >
-        <label for="senha">Senha:</label>
-        <input type="password" name="senha" id="senha">
-         
+        <input type="text" name="nome_usuario" id="nome_usuario " 
+        size="50" maxlenght="10"    minlenght="3" > 
+    </div>
+    <br>
+    <div>
+        <label for="senha">Senha:</label> 
+        <input type="password" name="senha" id="senha" required>
+    </div>
+    <br>
+    <div>
+      <font color="#62F0EF"><label for="">HOBBIES:</label></font>
+        <br>
+        <input type="checkbox" name="livro" id="livro">
+        <label for="livro">Livro</label>
+        <input type="checkbox" name="esporte" id="esporte">
+        <label for="esporte">Esporte</label>
+        <input type="checkbox" name="cinema" id="cinema">
+        <label for="cinema">Cinema</label>
+        <input type="checkbox" name="musica" id="musica">
+        <label for="musica">Musica</label>
+    </div>
+    <br>
+    <div>
+        <label for="">Escolha o tipo:</label>
+        <input type="radio" name="tipo" id="adulto" checked>
+        <label for="adulto">Adulto</label>
+        <input type="radio" name="tipo" id="adolescente">
+        <label for="adolescente">Adolescente</label>
+        <input type="radio" name="tipo" id="crianca">
+        <label for="crianca">Criança</label>
+    </div>
+    <br>
+    <div>
+          <button type="submit">Enviar</button>
+          <button type="reset">Apagar</button>
+          <!------botoes-------
+          <input type="submit" value="Enviar">
+          <input type="reset" value="Apagar">
+          -->
 
+    </div>
+
+       </div>
      </form>
 
 
