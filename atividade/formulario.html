@@ -9,40 +9,37 @@
 <body>
 
     <font color="#B8B1EB"><h1>FORMULÁRIO</h1></font>
-     <legend>Dados pessoais</legend>
+    <font color="#E02667"><legend>--------DADOS PESSOAIS--------</legend></font>
+    <br>
     <br>
      <form action=" "method=" ">
-        <div>
         <label for="nome_usuario">Nome:</label>
         <input type="text" name="nome_usuario" id="nome_usuario " 
-        size="50" maxlenght="10"    minlenght="3" placeholder="Digite seu endereço:"> 
-    </div>
-    <br>
-    <div>
+        size="50" maxlenght="10"    minlenght="3" placeholder="Digite seu nome:"> 
+        <br>
+        <br>
         <label for="endereco">Endereço:</label>
         <input type="text" name="endereco" id="endereco"
-        size="50" maxlenght="10"    minlenght="3" placeholder="Digite seu nome"> 
-    </div>
-    <br>
-    <div>
+        size="50" maxlenght="10"    minlenght="3" placeholder="Digite seu endereço"> 
+        <br>
+        <br>
         <label for="cidade">Cidade:</label>
         <input type="text" name="cidade" id="cidade"
         size="50" maxlenght="10"    minlenght="3" placeholder="Digite sua cidade:"> 
-    </div>
-    <br>
-    <div>
-        <label for="">ESTADO:</label>
-        <select name="opc" id="opc">
+        <br>
+        <br>
+    <label for="">Estado:</label> 
+     <select> name="opc" id="opc">
            <option value="tsi">ACRE</option>
            <option value="tme">ALAGOAS</option>
-           <option value="inf">AMAPA</option>
+           <option value="inf">AMAPÁ</option>
            <option value="adm">AMAZONAS</option>
            <option value="">BAHIA</option>
            <option value="">CEARA</option>
            <option value="">DISTRITO FEDERAL</option>
            <option value="">ESPIRITO SANTO</option>
            <option value="">GOIAS</option>
-           <option value="">MARANHAO</option>
+           <option value="">MARANHÃO</option>
            <option value="">MATO GROSSO</option>
            <option value="">MINAS GERAIS</option>
            <option value="">PARA</option>
@@ -58,13 +55,13 @@
            <option value="">SANTA CATARINA</option>
            <option value="">SAO PAULO</option>
            <option value="">SERGIPE</option>
-           <option value="">TOCANTINS</option>
-           </select>
-   </div>
+           <option value="">TOCANTINS</option> 
+     </select>
+        <br>
+        <br>
+        <br>
+   <font color="#E02667"><legend>-------DADOS PROFISSIONAIS------</legend></font>
    <br>
-   <legend>Dados Profissionais</legend>
-   <br>
-    <div>
         <label for="">Natureza do cargo:</label>
         <input type="radio" name="tipo" id="gerencia" checked>
         <label for="gerencia">GERENCIA</label>
@@ -75,11 +72,10 @@
         <input type="radio" name="tipo" id="administrativo" checked>
         <label for="administrativo">ADMINISTRATIVO</label>
         <input type="radio" name="tipo" id="juridico">
-        <label for="juridico">JURIDICO</label>     
-    </div>
-     <br>
-      <font color="#62F0EF"><label for="">Area de interesse:</label></font>
+        <label for="juridico">JURIDICO</label> 
+        <br>    
         <br>
+      <label for="">Area de interesse:</label>
         <input type="checkbox" name="computacao" id="computacao">
         <label for="computacao">COMPUTAÇAO</label>
         <input type="checkbox" name="biologia" id="biologia">
@@ -90,22 +86,17 @@
         <label for="musica">ENGENHARIA</label>
         <input type="checkbox" name="historia" id="historia">
         <label for="">HISTORIA</label>
-    </div>
     <br>
      <br>
-    <div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Deixe seu recado"></textarea>
-    </div>
+    <h2>mini-curriculo: <textarea name="" id="" cols="30" rows="10" placeholder="mini-curriculo"></textarea></h2>
     <br>
     <br>
-    <div>
         <button type="submit">Enviar</button>
         <button type="reset">Apagar</button>
         <!------botoes-------
         <input type="submit" value="Enviar">
         <input type="reset" value="Apagar">
         -->
-     </div>
     
    </form>
    <br>
