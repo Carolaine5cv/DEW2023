@@ -1,0 +1,16 @@
+.cor-fundo{
+    background-color: blueviolet;
+}
+h2{
+    display: inline;
+}
+p{
+    display: inline;
+}
+.item {
+    width: 100px;
+    height: 100px;
+}
+.item-1 {background-color: chocolate;}
+.item-2 {background-color: aqua;}
+.item-3 {background-color: chartreuse;}
