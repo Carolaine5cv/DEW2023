@@ -1,0 +1,19 @@
+.texto
+{
+ position: absolute;
+  top: 8px;
+  left: 16px;
+  right: 350px;;
+ font-size: 18px;
+} 
+
+.topo
+{
+ position: absolute;
+  top: 8px;
+  width: 2900px;
+  right: 16px;;
+ font-size: 18px;
+ height: 1740;
+} 
+
