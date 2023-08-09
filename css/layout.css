@@ -2,8 +2,9 @@
 #header{ width: 90%;
     height: 100px;
     background-color: blue;
+    float: left;
 }
-/********************MENU*******************/
+/****************MENU*******************/
 #menu{
     width: 90%;
     height: 30px;
@@ -13,6 +14,7 @@
     width: 30%;
     height: 500px;
     background-color: green;
+    float: right;
 }
 #banner{
     width: 70%;
