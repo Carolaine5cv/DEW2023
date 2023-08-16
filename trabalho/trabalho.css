@@ -1,0 +1,31 @@
+#foto2 {
+    position: fixed;
+    top: 250px;
+}
+
+#foto3 {
+    position: absolute;
+    top: 245px;
+    animation:f1a 9s;
+}
+
+#foto1 {
+
+}
+
+#foto2
+{
+    position: absolute;
+    animation:f2a 9s;
+}
+
+@keyframes f2a
+{
+    from{left:0%;}
+    to{left:50%;}
+}
+
+@keyframes f1a{
+    from{right:0%;}
+    to{right:50%;}
+}
