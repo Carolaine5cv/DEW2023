@@ -1,3 +1,8 @@
+
+#foto1 {
+
+}
+
 #foto2 {
     position: fixed;
     top: 250px;
@@ -5,18 +10,18 @@
 
 #foto3 {
     position: absolute;
-    top: 245px;
+    top: 318px;
     animation:f1a 9s;
+    animation-fill-mode: forwards;
 }
 
-#foto1 {
 
-}
 
 #foto2
 {
     position: absolute;
     animation:f2a 9s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes f2a
@@ -29,3 +34,32 @@
     from{right:0%;}
     to{right:50%;}
 }
+
+#foto4{
+
+    position: absolute;
+    top: 254px;
+    animation: f4a 9s ease-in forwards;
+    
+    
+}
+
+@keyframes f4a
+{
+    from{top:0%;
+        left: 45%}
+    to{left: 45%}
+}
+
+#foto5{
+    position: absolute;
+    top: 475px;
+    animation:f5a 9s ease-in forwards;
+}
+@keyframes f5a
+{
+    from{right:0%;}
+    to{right:31%;}
+}
+
+
